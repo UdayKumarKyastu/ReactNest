@@ -1,0 +1,6 @@
+@import '@pretamanger/component-library/dist/global.css';
+
+body {
+  background-color: #FFFFFF;
+  overflow: hidden;
+}
