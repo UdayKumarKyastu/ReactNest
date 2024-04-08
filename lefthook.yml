@@ -1,0 +1,11 @@
+pre-commit:
+  parallel: true
+  commands:
+    lint:
+      glob: '*.{js,ts,tsx}'
+      run: npx eslint {staged_files}
+
+pre-push:
+  commands:
+    test:
+      run: CI=true npm run test

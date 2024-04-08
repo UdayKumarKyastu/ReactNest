@@ -1,0 +1,25 @@
+{
+  "presets": ["@babel/preset-typescript", "@babel/preset-env", "@babel/preset-react"],
+  "plugins": [
+    "@babel/transform-runtime",
+    "@babel/plugin-proposal-class-properties",
+    "babel-plugin-emotion",
+    "babel-plugin-twin",
+    "babel-plugin-macros",
+    [
+      "@emotion/babel-plugin-jsx-pragmatic",
+      {
+        "export": "jsx",
+        "import": "__cssprop",
+        "module": "@emotion/react"
+      }
+    ],
+    [
+      "@babel/plugin-transform-react-jsx",
+      {
+        "pragma": "__cssprop",
+        "pragmaFrag": "React.Fragment"
+      }
+    ],
+  ]
+}

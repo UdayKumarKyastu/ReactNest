@@ -1,0 +1,3 @@
+//npm.pkg.github.com/:_authToken=${NPM_TOKEN}
+@pretamanger:registry=https://npm.pkg.github.com/pretamanger
+legacy-peer-deps=true

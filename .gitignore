@@ -1,0 +1,15 @@
+coverage/
+node_modules
+.next
+.env
+out
+.cache
+ci/build.manifest
+.idea
+test/performance/results/*
+.dist/
+cypress/screenshots
+cypress/videos
+.npmrc
+lefthook-local.yml
+.DS_Store
